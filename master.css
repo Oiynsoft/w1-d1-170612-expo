@@ -1,0 +1,22 @@
+.main {
+  text-align: center;
+  background: url("https://www.bestar.kz/wp-content/uploads/2017/04/268ce82cde0de6642cf898330995a709.jpg");
+  padding: 250px 0 250px 0;
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 32px;
+  background-attachment: fixed;
+}
+
+.main h1:hover, .main h3:hover {
+  color: rgb(100, 100, 100);
+}
+
+.logo {
+  align-content: center;
+  border-radius: 10px;
+  width: 150px;
+  margin: 20px auto;
+  padding: 250px 250px 250px 250px;
+}

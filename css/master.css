@@ -1,0 +1,80 @@
+.main {
+  text-shadow: 0px 1px 15px black;
+}
+
+body {
+    text-align: center;
+    background: url("https://www.bestar.kz/wp-content/uploads/2017/04/268ce82cde0de6642cf898330995a709.jpg");
+    padding: 0 0 250px 0;
+    background-size: cover;
+    color: white;
+    font-size: 32px;
+    background-attachment: fixed;
+}
+
+.main h1:hover, .main h3:hover {
+  color: rgb(0, 120, 255);
+}
+
+nav {
+position: fixed;
+    background: rgba(0, 170, 238, 0.4);
+    text-align: left;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 #666;
+}
+
+.nav a {
+  color: white;
+  text-shadow: 0px 1px 15px black;
+  padding: 0 10px 0 10px;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  text-shadow: 0px 1px 15px white;
+  border-radius: 10px;
+  box-shadow: 10 10px 5px #666;
+}
+
+.logo {
+  align-content: center;
+  border-radius: 30px;
+  width: 250px;
+  margin:  0 auto;
+  padding-top: 50px;
+  padding: 0 0 0 0;
+}
+
+.map {
+  align-content: center;
+  border-radius: 30px;
+  width: 700px;
+  margin:  0 auto;
+  padding-top: 50px;
+  padding: 0 0 0 0;
+}
+
+.text {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #666;
+}
+
+.top {
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 170, 238, 0.4);
+  align-content: center;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  color: #333;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  position: fixed;
+}
